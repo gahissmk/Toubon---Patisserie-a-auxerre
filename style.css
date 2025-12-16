@@ -1,6 +1,6 @@
 /*RESET*/
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -11,46 +11,49 @@
 /* LES CLASSES FONCTIONNELLES FLEX */
 
 .flex {
-display:flex;
-flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .space-between {
-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .space-around {
-justify-content:space-around;
+    justify-content: space-around;
 }
 
 .space-evenly {
-justify-content: space-evenly;}
+    justify-content: space-evenly;
+}
 
 .justify-center {
-justify-content:center;
+    justify-content: center;
 }
+
 .flex-end {
-justify-content:flex-end;
+    justify-content: flex-end;
 }
 
 .flex-start {
-justify-content:flex-start;
+    justify-content: flex-start;
 }
 
 /* alignement verticale */
 
 .align-center {
-align-items:center;
+    align-items: center;
 }
 
-.align-end{
-align-items:end;
+.align-end {
+    align-items: end;
 }
 
 /* Gap */
 
-.gap-12 
-{gap: 12px;}
+.gap-12 {
+    gap: 12px;
+}
 
 /* LES CLASSES DE LARGEUR */
 
@@ -67,24 +70,26 @@ align-items:end;
 }
 
 .w-22 {
-    width: 22%;
+    width: 15%;
 }
 
 .w-25 {
     width: 25%;
 }
+
 .w-75 {
     width: 75%;
 }
+
 .w-30 {
     width: 30%;
 }
 
 .container-1000 {
-max-width: 1000px;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 
@@ -101,9 +106,11 @@ width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
 .marge-bottom-30 {
-    margin-bottom: 30px;
+    margin-bottom: 200px;
 }
+
 .margin-top-100 {
     margin-top: 100px;
 }
@@ -113,8 +120,9 @@ width: 100%;
 }
 
 .marge-top-30 {
-margin-top: 30px;
+    margin-top: 30px;
 }
+
 .margin-top-15 {
     margin-top: 15px;
 }
@@ -131,75 +139,75 @@ a {
     padding: 15px;
 }
 
- .position-nav {
+.position-nav {
     position: fixed;
     top: 200px;
     right: 10px;
- }
+}
 
- .position-header {
+.position-header {
     position: fixed;
-   width: 100%;
-    
-    
+    width: 100%;
 
- }
 
- .gap-50 {
+
+}
+
+.gap-50 {
     gap: 230px;
- }
+}
 
- .flex-inline{
+.flex-inline {
     display: inline-flex;
     align-content: space-around;
- }
+}
 
- .trait {
-    background-color:#996830 ;
-    height:2px ;
+.trait {
+    background-color: #996830;
+    height: 2px;
     width: 60px;
- }
+}
 
- .text-center {
+.text-center {
     text-align: center;
- }
+}
 
- .textcolor {
-    color:white;
- }
+.textcolor {
+    color: white;
+}
 
- .border-color {
+.border-color {
     border-color: #996830;
- }
+}
 
- .flexwrap {
- flex-wrap: wrap;
+.flexwrap {
+    flex-wrap: wrap;
 }
 
 .bg-section2 {
-    background: #996830;
+    background: #E8E7AB;
 }
 
 .trait2 {
-    background-color:#ffffff ;
-    height:2px ;
+    background-color: #ffffff;
+    height: 2px;
     width: 60px;
- }
+}
 
- .img-taille {
-    height: 250px ;
+.img-taille {
+    height: 250px;
     width: 100%;
     object-fit: cover;
     object-position: center;
- }
+}
 
- .border-1 {
+.border-1 {
     border: 2px solid #996830;
- }
+}
 
 
 
- .btn {
+.btn {
     background-color: #C30E59;
     border-radius: 0;
     color: white;
@@ -220,19 +228,20 @@ a {
 }
 
 .btn:hover {
-    background: #48341e;
+    background: #ff00c34c;
 }
 
 .margin-bottom-100 {
     margin-bottom: 100px;
 }
+
 .bg-section3 {
-    background: #FD8D5D;
-    padding: 100px 0 60px 0;
+    background: #FFE4CF;
+    padding: 50px 0 60px 0;
 }
 
 .police {
-    font-family: "playfair display" , serif;
+    font-family: "playfair display", serif;
 }
 
 .police2 {
@@ -252,8 +261,8 @@ a {
     list-style-type: none;
 }
 
-.card{
-    background-color: antiquewhite;
+.card {
+    background-color: #ffffff;
     border-radius: 10px 10px 10px 10px;
     padding: 15px;
 
@@ -284,5 +293,33 @@ a {
 }
 
 .margin-left200 {
-    margin-left: 400px;
+    margin-left: 525px;
+}
+
+.cardrond {
+    background-image: url(patisserie/macarons-varies.webp);
+    border-radius: 100%;
+    padding: 15px;
+    width: 150px;
+    height: 25vh;
+
+}
+
+.card33 {
+    background-color: #bebeb3;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+}
+
+.bgsectionfooter {
+    background: #FFE4CF;
+    padding: 100px 0 60px 0;
+}
+
+.border-radius11{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.marge-bottom-213 {
+    margin-bottom: 100px;
 }
