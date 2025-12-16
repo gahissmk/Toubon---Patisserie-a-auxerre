@@ -1,0 +1,288 @@
+/*RESET*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+
+/* LES CLASSES FONCTIONNELLES FLEX */
+
+.flex {
+display:flex;
+flex-wrap:wrap;
+}
+
+.space-between {
+justify-content: space-between;
+}
+
+.space-around {
+justify-content:space-around;
+}
+
+.space-evenly {
+justify-content: space-evenly;}
+
+.justify-center {
+justify-content:center;
+}
+.flex-end {
+justify-content:flex-end;
+}
+
+.flex-start {
+justify-content:flex-start;
+}
+
+/* alignement verticale */
+
+.align-center {
+align-items:center;
+}
+
+.align-end{
+align-items:end;
+}
+
+/* Gap */
+
+.gap-12 
+{gap: 12px;}
+
+/* LES CLASSES DE LARGEUR */
+
+.w-100 {
+    width: 100%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-22 {
+    width: 22%;
+}
+
+.w-25 {
+    width: 25%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-30 {
+    width: 30%;
+}
+
+.container-1000 {
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+
+.bg-hero {
+    background-image: url(patisserie/pexels-jordan-besson-2051439001-30217148.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.marge-10 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.marge-bottom-30 {
+    margin-bottom: 30px;
+}
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.marge-top-50 {
+    margin-top: 50px;
+}
+
+.marge-top-30 {
+margin-top: 30px;
+}
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.padding-30 {
+    padding: 30px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+ .position-nav {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+ }
+
+ .position-header {
+    position: fixed;
+   width: 100%;
+    
+    
+
+ }
+
+ .gap-50 {
+    gap: 230px;
+ }
+
+ .flex-inline{
+    display: inline-flex;
+    align-content: space-around;
+ }
+
+ .trait {
+    background-color:#996830 ;
+    height:2px ;
+    width: 60px;
+ }
+
+ .text-center {
+    text-align: center;
+ }
+
+ .textcolor {
+    color:white;
+ }
+
+ .border-color {
+    border-color: #996830;
+ }
+
+ .flexwrap {
+ flex-wrap: wrap;
+}
+
+.bg-section2 {
+    background: #996830;
+}
+
+.trait2 {
+    background-color:#ffffff ;
+    height:2px ;
+    width: 60px;
+ }
+
+ .img-taille {
+    height: 250px ;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+ }
+
+ .border-1 {
+    border: 2px solid #996830;
+ }
+
+
+
+ .btn {
+    background-color: #C30E59;
+    border-radius: 0;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.btn2 {
+    background-color: #000000;
+    border-radius: 0;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    display: inline-block;
+}
+
+.btn2:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.btn:hover {
+    background: #48341e;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+.bg-section3 {
+    background: #FD8D5D;
+    padding: 100px 0 60px 0;
+}
+
+.police {
+    font-family: "playfair display" , serif;
+}
+
+.police2 {
+    font-family: "outfit", sans-serif;
+
+}
+
+.italique {
+    font-style: italic;
+}
+
+.color-text {
+    color: #FD8D5D;
+}
+
+.deco-text-no {
+    list-style-type: none;
+}
+
+.card{
+    background-color: antiquewhite;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+
+}
+
+.textcolor213 {
+    color: #C30E59;
+}
+
+.textcolor214 {
+    color: #F2AE66;
+}
+
+.textcolor215 {
+    color: #E8E7AB;
+}
+
+.textcolor216 {
+    color: #ffffff;
+}
+
+.position-header22 {
+    margin-left: 90px;
+}
+
+.margin-left100 {
+    margin-left: 50px;
+}
+
+.margin-left200 {
+    margin-left: 400px;
+}
