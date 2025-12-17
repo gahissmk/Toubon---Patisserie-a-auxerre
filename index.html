@@ -7,6 +7,7 @@
     <title>Document</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
     <link rel="stylesheet" type="text/css"
@@ -18,12 +19,12 @@
 
         <nav>
 
-            <ul class="flex space-around position-header position-header22 deco-text-no">
-                <li><a href="">Produits</a></li>
-                <li><a href="">Services</a></li>
-                <a href=""><img class="w-48" src="patisserie/logo-patissier-3.png" alt=""></a>
-                <li><a href="">Témoignages</a></li>
-                <li><a href="">Contacts</a></li>
+            <ul class="flex gap-30 deco-text-no align-center space-around">
+                <li><a class="textcolor216" href="">Produits</a></li>
+                <li><a class="textcolor216" href="">Services</a></li>
+                <a href="" class="center-img"><img class="w-22" src="assett/logo-patissier-3.png" alt=""></a>
+                <li><a class="textcolor216" href="">Témoignages</a></li>
+                <li><a class="textcolor216" href="">Contacts</a></li>
 
             </ul>
         </nav>
@@ -35,14 +36,8 @@
         <section class="bg-hero justify-center flex align-center">
 
             <!-- Grande div-->
-            <div class="text-center">
+            <div id="divHero" class="text-center">
 
-                <h1 class="textcolor216">Toubon - Patisserie a Auxerre</h1>
-
-                <p class="padding-30 textcolor216">Succombez à la délicatesse sucrée avec TouBon, votre pâtisserie
-                    gourmande à Auxerre</p>
-
-                <a href="contact.html" class="textcolor btn">Découvrez nos créations</a>
 
 
 
@@ -52,60 +47,17 @@
 
         <h2 class="padding-30 margin-left200">Nos Produits</h2>
 
-        <section class="container-1000">
+        <section class="container-1000 flex space-around">
+            <div id="sectionProduits" class="flex space-between padding-30 justify-center">
 
 
 
-            <div class="flex space-between padding-30">
-
-                <div class="card w-33">
-                    <img class="w-75 margin-left100 border-radius11" src="patisserie/macarons-varies.webp" alt="">
-                    <h3>Macarons Variés</h3>
-                    <p>Découvrez nos macarons aux saveurs variées, préparés avec soin pour satisfaire toutes les
-                        papilles. Des couleurs vives et des combinaisons de goûts uniques.</p>
-
-                </div>
-
-                <div class="card w-33">
-                    <img class="w-48 margin-left100" src="" alt="">
-                    <h3></h3>
-                    <p></p>
-
-                </div>
-
-                <div class="card w-33">
-                    <img class="w-48 margin-left100" src="" alt="">
-                    <h3></h3>
-                    <p></p>
-
-                </div>
-            </div>
-
-
-            <div class="flex space-between padding-30">
-
-                <div class="card w-33">
-                    <img class="w-48 margin-left100" src="" alt="">
-                    <h3></h3>
-                    <p></p>
-
-                </div>
-
-                <div class="card w-33">
-                    <img class="w-48 margin-left100" src="" alt="">
-                    <h3></h3>
-                    <p></p>
-
-                </div>
-
-                <div class="card w-33">
-                    <img class="w-48 margin-left100" src="" alt="">
-                    <h3></h3>
-                    <p></p>
-
-                </div>
 
             </div>
+
+
+
+
 
         </section>
 
@@ -114,36 +66,8 @@
         <section class="bg-section3 padding-15">
 
             <h2 class="margin-left200 marge-bottom-213">Nos services</h2>
-            <div class="flex-inline">
+            <div id="divServices" class="flex container-1000">
 
-                <div>
-                    <div class="cardrond">
-
-                    </div>
-                    <h4>Gâteaux Sur Mesure</h4>
-                    <p>Commandez des gâteaux sur mesure pour célébrer vos occasions spéciales. Des créations uniques et
-                        personnalisées pour rendre vos moments encore plus mémorables.</p>
-                </div>
-
-                <div>
-                    <div class="cardrond">
-
-                    </div>
-                    <h4>Cours de Pâtisserie</h4>
-                    <p>Participez à nos cours de pâtisserie pour apprendre les secrets de nos chefs. Éveillez le
-                        pâtissier qui sommeille en vous et régalez-vous de vos propres créations.</p>
-
-                </div>
-
-                <div>
-                    <div class="cardrond">
-
-                    </div>
-                    <h4>Service traiteur</h4>
-                    <p>Optez pour notre service traiteur pour ravir vos invités lors de vos événements. Des pâtisseries
-                        délicieuses et élégantes pour toutes les occasions.</p>
-
-                </div>
 
             </div>
 
@@ -154,57 +78,47 @@
 
         <section class="padding-30">
 
-            <div class="flex space-around">
-
-                <div class="card33 w-22">
-                    <h5>Prénom : Sophie</h5>
-                    <h5>Type d'experience : Macarons Variés</h5>
-                    <h5>Note : <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                        <i class="ph-fill ph-star"></i>
-                    </h5>
-                    <h5> Commentaire :</h5>
-                    <p> Les macarons de TouBon sont une véritable explosion de saveurs. Chaque bouchée est
-                        un délice. Une
-                        pâtisserie incontournable à Auxerre !</p>
+            <div id="divTemoignages" class="flex space-around">
 
 
-                </div>
-
-                <div class="card33 w-22">
-
-                </div>
-
-                <div class="card33 w-22">
-
-                </div>
 
             </div>
 
         </section>
 
+        <section class="bgsectionfooter1">
+            <div id="divClients" class="flex space-around">
+
+            </div>
+        </section>
     </main>
 
-    <footer class="bgsectionfooter padding-30">
+    <footer class="bgsectionfooter2 padding-30">
         <div class="flex space-around">
             <div>
-                <h5><i class="ph ph-basket"></i></h5>
+                <h4 class="textcolor216">Venez gouter nos pâtisseries
+                    savoureuses
 
-                <p>Large sélection de pâtisseries artisanales</p>
+                </h4>
 
-            </div>
-
-            <div>
-                <h5><i class="ph ph-cherries"></i></h5>
-                <p>Ingrédients de qualité pour des saveurs authentiques</p>
 
             </div>
 
             <div>
-                <h5><i class="ph ph-heart"></i></h5>
-                <p>Ambiance chaleureuse pour une expérience gourmande unique</p>
+                <form action="" class="w-125">
+                    <div>
+                        <input type="text" name="Nom" id="" placeholder="Nom" class="w-125 marge-bottom-214">
+                    </div>
+
+                    <div>
+                        <input type="email" name="Email" id="" placeholder="Email" class="w-125 marge-bottom-214">
+                    </div>
+
+                    <div>
+                        <input type="submit" name="" id="" value="ENVOYER" class="btn2">
+                    </div>
+                </form>
+
 
             </div>
         </div>

@@ -51,14 +51,17 @@
 
 /* Gap */
 
-.gap-12 {
-    gap: 12px;
+.gap-30 {
+    gap: 30px;
 }
 
 /* LES CLASSES DE LARGEUR */
 
 .w-100 {
     width: 100%;
+}
+.w-125 {
+    width: 125%;
 }
 
 .w-48 {
@@ -78,7 +81,7 @@
 }
 
 .w-75 {
-    width: 75%;
+    width: 80%;
 }
 
 .w-30 {
@@ -94,7 +97,7 @@
 
 
 .bg-hero {
-    background-image: url(patisserie/pexels-jordan-besson-2051439001-30217148.jpg);
+    background-image: url(assett/pexels-jordan-besson-2051439001-30217148.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -139,18 +142,27 @@ a {
     padding: 15px;
 }
 
-.position-nav {
-    position: fixed;
-    top: 200px;
-    right: 10px;
-}
+
 
 .position-header {
     position: fixed;
     width: 100%;
+    background-image: url(assett/pexels-jordan-besson-2051439001-30217148.jpg);
+    border-radius: 0 0 10px 10px;
 
 
 
+}
+
+header{
+    padding:  0 64px;
+    border-radius: 20px;
+    position: fixed;
+    width : 100%;
+    max-width: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .3s ease;
 }
 
 .gap-50 {
@@ -236,7 +248,8 @@ a {
 }
 
 .bg-section3 {
-    background: #FFE4CF;
+ background-image: url(assett/unsplash_S2jw81lfrG0.jpg) ;
+  backdrop-filter: blur(10px);
     padding: 50px 0 60px 0;
 }
 
@@ -292,12 +305,34 @@ a {
     margin-left: 50px;
 }
 
-.margin-left200 {
-    margin-left: 525px;
+.text-center {
+   text-align: center;
+}
+.cardrond, .cardrond2 , .cardrond3{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.cardrond {
+    background-image: url(assett/unsplash__4iLsr5p-dY.jpg);
+    border-radius: 100%;
+    padding: 15px;
+    width: 150px;
+    height: 25vh;
+
 }
 
-.cardrond {
-    background-image: url(patisserie/macarons-varies.webp);
+.cardrond2 {
+    background-image: url(assett/unsplash_m-KrZjhkZwY.jpg);
+    border-radius: 100%;
+    padding: 15px;
+    width: 150px;
+    height: 25vh;
+
+}
+
+.cardrond3 {
+    background-image: url(assett/unsplash_AJSnhy7iesU.jpg);
     border-radius: 100%;
     padding: 15px;
     width: 150px;
@@ -306,13 +341,18 @@ a {
 }
 
 .card33 {
-    background-color: #bebeb3;
+    background-color: #F8F8F8;
     border-radius: 10px 10px 10px 10px;
     padding: 15px;
 }
 
-.bgsectionfooter {
-    background: #FFE4CF;
+.bgsectionfooter1 {
+    background: #ffe4cf6b;
+    padding: 100px 0 60px 0;
+}
+
+.bgsectionfooter2 {
+background-image: url(assett/pexels-jordan-besson-2051439001-30217148.jpg);
     padding: 100px 0 60px 0;
 }
 
@@ -323,3 +363,21 @@ a {
 .marge-bottom-213 {
     margin-bottom: 100px;
 }
+
+.marge-bottom-214 {
+    margin-bottom: 10px;
+}
+.position-left {
+    margin-left: 300px;
+}
+
+
+
+.bg-header{
+    background-color: #222;
+}
+
+.center-img {
+    text-align: center;
+}
+
