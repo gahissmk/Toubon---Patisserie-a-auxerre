@@ -9,7 +9,7 @@ fetch('patisserie.json')
         afficherProduits(data.produits)
         afficherServices(data.services)
         afficherTemoignages(data.temoignages)
-        afficherAvantagesClients(client)
+        afficherAvantagesClients(tabClients)
     })
 
 
@@ -66,10 +66,10 @@ function afficherProduits(produits) {
 
 function afficherServices(services) {
 
-   
 
-        document.getElementById("divServices").innerHTML +=
-            `
+
+    document.getElementById("divServices").innerHTML +=
+        `
         <div class="flex-inline">
 
                 <div>
@@ -99,7 +99,7 @@ function afficherServices(services) {
         </div>`
 
 
-  
+
 
 }
 
@@ -139,40 +139,45 @@ function afficherTemoignages(temoignages) {
 
 
 
-function afficherAvantagesClients(client) {
+function afficherAvantagesClients(tabClients) {
 
-    document.getElementById("divClients").innerHTML +=
+    tabClients.forEach(client => {
 
-`<div class="flex space-around">
+        document.getElementById("divClients").innerHTML +=
+
+            `<div class="flex space-around">
                 <div>
                     <h5><i class="ph ph-basket"></i></h5>
 
-                    <p>${client.afficherAvantagesClients[0]}</p>
+                    <p>${tabClients.afficherAvantagesClients}</p>
 
                 </div>
 
                 <div>
                     <h5><i class="ph ph-cherries"></i></h5>
-                    <p>${client.afficherAvantagesClients[1]}</p>
+                    <p>${tabClients.afficherAvantagesClients}</p>
 
                 </div>
 
                 <div>
                     <h5><i class="ph ph-heart"></i></h5>
-                    <p>${client.afficherAvantagesClients[2]}</p>
+                    <p>${tabClients.afficherAvantagesClients}</p>
+
+                </div>
 
                 </div>`
 
+    }
+    )
 }
-
 
 let header = document.querySelector("header")
 let hero = document.querySelector(".bg-hero")
 
-document.addEventListener("scroll",()=>{
-    if(window.scrollY > hero.clientHeight){
+document.addEventListener("scroll", () => {
+    if (window.scrollY > hero.clientHeight) {
         header.classList.add("bg-header")
-    }else{
+    } else {
         header.classList.remove('bg-header')
     }
 })
