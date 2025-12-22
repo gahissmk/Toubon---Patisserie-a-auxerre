@@ -17,6 +17,7 @@ fetch('patisserie.json')
 // paramtere : la donnée
 // return : rien car affiche 
 
+
 function afficherHero(donee) {
 
     document.getElementById("divHero").innerHTML +=
@@ -29,6 +30,11 @@ function afficherHero(donee) {
     
     `
 }
+
+
+
+//afficher les produits
+
 
 function afficherProduits(produits) {
 
@@ -60,7 +66,7 @@ function afficherProduits(produits) {
 
 
 
-
+//afficher les services
 
 
 
@@ -103,6 +109,7 @@ function afficherServices(services) {
 
 }
 
+//Afficher les témoignages
 
 function afficherTemoignages(temoignages) {
 
@@ -138,6 +145,7 @@ function afficherTemoignages(temoignages) {
 }
 
 
+//Afficher les avantages clients
 
 function afficherAvantagesClients(tabClients) {
 
@@ -170,6 +178,9 @@ function afficherAvantagesClients(tabClients) {
     }
     )
 }
+
+
+// Scroll le header
 
 let header = document.querySelector("header")
 let hero = document.querySelector(".bg-hero")

@@ -8,6 +8,16 @@
 }
 
 
+
+
+/*Desoler pour le bazard j'ai voulu ranger le CSS mais sa a modifier le site ducoup j'ai laisser comme sa*/
+
+
+
+
+
+
+
 /* LES CLASSES FONCTIONNELLES FLEX */
 
 .flex {
@@ -88,12 +98,14 @@
     width: 30%;
 }
 
+
 .container-1000 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
+
 
 
 .bg-hero {
@@ -378,6 +390,4 @@ background-image: url(assett/pexels-jordan-besson-2051439001-30217148.jpg);
 .center-img {
     text-align: center;
 }
-
-
 
